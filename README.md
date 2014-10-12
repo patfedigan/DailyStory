@@ -9,3 +9,5 @@ Then DailyStory is the perfect app for you!
 
 Link to more details
 https://sites.google.com/site/123f12mobile/project-2/milestone-3/dailystory
+
+<img src="http://i.imgur.com/nO9KPXh.png">
