@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFF799"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:gravity="center"
+            android:text="Story #3:"
+            android:textColor="#00A651"
+            android:textSize="25pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="The Life of an Apple"
+            android:textColor="#000000"
+            android:textSize="12pt"
+            android:textStyle="bold" />
+        
+        <!--  Not sure how exactly the image thing work and setting it a certain size-->
+<RelativeLayout
+	    android:id="@+id/InnerRelativeLayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    >
+       <GridView
+        android:id="@+id/gridView"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        android:numColumns="3" >
+    </GridView>
+
+    <!--<Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Check" />-->
+
+         </RelativeLayout>
+        </LinearLayout>
+
+
+	<!--  For some reason, I cannot do layout_marginBottom and layout_marginRight-->
+
+	<RelativeLayout
+	    android:id="@+id/InnerRelativeLayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true" >
+
+	    Keep for reference
+	      <Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="230dp"
+	        android:layout_marginTop="120dp"
+	        android:background="#CDCDCD"
+	        android:text="Check"
+	        android:textColor="#000000"
+	        android:textSize="13pt" />
+
+	    <Button
+	        android:id="@+id/homeB"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="left"
+	        android:layout_marginTop="120dp"
+	        android:background="#CDCDCD"
+	        android:text="Home"
+	        android:textColor="#000000"
+	        android:textSize="15pt" />
+	    
+
+	    <TextView
+	        android:id="@+id/title3"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        android:ems="10"
+	        android:gravity="center"
+	        android:paddingTop="15dp"
+	        android:textColor="#000000"
+	        android:textSize="12pt"
+	        android:textStyle="bold" />
+
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/title3"
+	        android:layout_alignBottom="@+id/title3"
+	        android:layout_centerHorizontal="true"
+	        android:text="Solve the Puzzle!"
+	        android:textColor="#000000"
+	        android:textSize="30dp" />
+
+	</RelativeLayout>
+
+</RelativeLayout>

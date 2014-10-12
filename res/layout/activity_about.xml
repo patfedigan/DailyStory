@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#448CCB"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/ABOUTT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:ems="10"
+            android:gravity="center"
+            android:text="About:"
+            android:textColor="#000000"
+            android:textSize="22pt"
+            android:textStyle="bold"
+            tools:context=".AboutActivity" />
+        
+        <TextView
+            android:id="@+id/aboutInfo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:text="Creators:"
+            android:textColor="#000000"
+            android:textSize="15pt" />
+                     
+          <TextView
+            android:id="@+id/aboutInfo4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:text="Tammy Kong"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+   
+          <TextView
+            android:id="@+id/aboutInfo5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:text="Kevin Yang"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt"
+            android:textStyle="bold" />     
+          
+		<TextView
+            android:id="@+id/aboutInfo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:text="Kayla Carr"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+		
+		<TextView
+            android:id="@+id/aboutInfo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:text="Patrick Fedigan"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+		
+		<TextView
+            android:id="@+id/aboutInfo7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:text="Jorje Rodriguez"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+		
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:orientation="vertical" >
+        </LinearLayout>
+		
+         <TextView
+            android:id="@+id/aboutInfo6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:ems="10"
+            android:gravity="center"
+            android:text="Credits:"
+            android:textColor="#000000"
+            android:textSize="15pt" />
+         
+         <TextView
+            android:id="@+id/aboutInfo7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:text="Google Images"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+         
+        <Button
+            android:id="@+id/backB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:text="Back"
+            android:textColor="#000000"
+            android:textSize="15pt"
+            android:background="#CDCDCD" />
+        
+         </LinearLayout>
+        
+</RelativeLayout>
