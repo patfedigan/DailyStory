@@ -2,7 +2,9 @@
 
 DailyStory is an AI-powered storytelling app that generates a new, personalized story for you every day based on your preferences and reading history.
 
-![DailyStory Logo](https://github.com/patfedigan/DailyStory/blob/main/assets/logo.png)
+<img src="http://i.imgur.com/nO9KPXh.png" height="640" width="360">
+
+
 
 ## Features
 
